@@ -1,0 +1,177 @@
+.App-header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px 0; /* Reducción del padding */
+  }
+  
+  /* Estilos para el logo */
+  .App-logo {
+    height: 120px; /* Altura del logo reducida */
+    width: auto;
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+  
+  .App-header h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la sección de descripción de la empresa */
+  .about-section {
+    background-color: #f8f9fa; /* Color de fondo */
+    border: 1px solid #d1d1d1; /* Borde gris más claro */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .about-section h2 {
+    font-size: 2em; /* Tamaño de fuente del título */
+    margin-bottom: 20px; /* Margen inferior */
+    color: #333; /* Color del título */
+  }
+  
+  .about-section p {
+    font-size: 1.2em; /* Tamaño de fuente del párrafo */
+    margin-bottom: 15px; /* Margen inferior */
+    color: #555; /* Color del texto */
+  }
+  
+  .about-section p:last-child {
+    margin-bottom: 0; /* Eliminar el margen inferior del último párrafo */
+  }
+  
+  
+  
+  
+  /* Estilos de las secciones */
+  .About,
+  .Team,
+  .Contact {
+    padding: 40px;
+    margin-bottom: 40px;
+    background-color: #ffffff; /* Color de fondo de las secciones */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .About h2,
+  .Team h2,
+  .Contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos del formulario de contacto */
+  .Contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .Contact label {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 8px;
+    color: #333; /* Color del texto */
+  }
+  
+  .Contact input,
+  .Contact textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 16px;
+    border: 1px solid #d1d1d1; /* Borde ligero */
+    border-radius: 4px; /* Borde redondeado */
+  }
+  
+  .Contact input::placeholder,
+  .Contact textarea::placeholder {
+    color: #999; /* Color del marcador de posición */
+  }
+  
+  .Contact button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107; /* Color amarillo */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 4px; /* Borde redondeado */
+    transition: background-color 0.3s; /* Transición suave */
+  }
+  
+  .Contact button:hover {
+    background-color: #ffcd38; /* Color amarillo más claro al pasar el ratón */
+  }
+  
+  /* Estilos para la sección del equipo */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 0 0 calc(33.33% - 16px); /* 3 columnas con margen entre ellas */
+    margin-bottom: 16px;
+  }
+  
+  /* Estilos de la tarjeta del equipo */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #7c5c5c;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #413131;
+  }
+  
+  /* Estilos del pie de página */
+  .Footer {
+    background-color: #519cda; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+    border-top: 1px solid #fff; /* Borde superior blanco */
+  }
+  
+  .Footer p {
+    margin: 10px 0; /* Margen entre párrafos */
+    font-size: 14px; /* Tamaño de fuente */
+  }
+  
+  .Footer a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave del color */
+  }
+  
+  .Footer a:hover {
+    color: #f0ad4e; /* Cambio de color al pasar el mouse */
+  }
+  

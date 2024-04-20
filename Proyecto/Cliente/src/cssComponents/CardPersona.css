@@ -1,0 +1,36 @@
+    .card-persona {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .card-persona p {
+        margin: 5px 0;
+    }
+    
+    .delete-button {
+        background-color: #ff6347; /* Color rojo */
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    
+    .edit-button {
+        background-color: #007bff; /* Color azul */
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .update-button {
+        background-color: #ffa600; /* Color azul */
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    

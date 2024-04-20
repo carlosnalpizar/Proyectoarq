@@ -1,0 +1,18 @@
+/* PALETA DE COLORES
+Negro: #000000
+Amarillo: #F3A83C
+Blanco: #FFFFFF
+Celeste: #519cda
+Marrón: #503C3C
+text-transform: lowercase;
+*/
+
+*{
+    text-decoration: none;
+    font-family: monospace;
+}
+
+hr{
+    color: black;
+    background-color: black;
+}

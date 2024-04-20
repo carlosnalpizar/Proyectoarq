@@ -1,0 +1,82 @@
+    /* TareasFormulario.css */
+
+    /* Estilos para el contenedor del formulario */
+    .insPer {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 400px;
+        padding: 20px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    .check{
+        color: rgb(0, 0, 0);
+        background-color: greenyellow;
+        text-align: center;
+    }
+
+    .registrado{
+        color: rgb(255, 255, 255);
+        background-color: red;
+        text-align: center;
+    }
+
+    .regresar{
+        color: red;
+    }
+    h2{
+        text-align: center;
+        color:black;
+    }
+    
+    /* Estilos para el formulario */
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Estilos para los grupos de formulario */
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    /* Estilos para las etiquetas de formulario */
+    .form-group label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    /* Estilos para los inputs y select */
+    .form-group input,
+    .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #F3A83C;;
+    border-radius: 3px;
+    box-sizing: border-box; /* Añadido */
+    }
+
+    
+    /* Estilos para el botón de envío */
+    .insPer button {
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        background-color: #F3A83C;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .insPer button:hover {
+        background-color: #815a24;
+    }
+    
+    /* Estilos para el botón de envío cuando está deshabilitado */
+    .insPer button[disabled] {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+    
